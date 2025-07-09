@@ -39,14 +39,14 @@ python run.py
 * The endpoint is at:
 
 ```bash
-POST [http://127.0.0.1:5000/webhook/receiver](http://127.0.0.1:5000/webhook/receiver)
+POST http://127.0.0.1:5000/webhook/receiver
 ```
 
 
 * UI location:
 
 ```bash
-GET [http://127.0.0.1:5000/webhook/receiver](http://127.0.0.1:5000/webhook/logger)
+GET http://127.0.0.1:5000/webhook/logger
 ```
 
 You need to use this as the base and setup the flask app. Integrate this with MongoDB (commented at `app/extensions.py`)
